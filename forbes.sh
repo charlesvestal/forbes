@@ -21,7 +21,6 @@ for i in downloads/*.jpg; do
 done
 
 echo "</ul>
-<!-- partial -->
   
 </body>
 </html>" >> index.html
