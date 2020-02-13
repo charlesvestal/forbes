@@ -1,3 +1,5 @@
+generate a flexbox image wall based on google image search results 
+
 # Clone this repo
 
 Step 0. check out this repository
@@ -23,6 +25,8 @@ cd google-images-downloads
 git checkout patch-1
 sudo pip install google_images_download
 ```
+
+# Prep to generate an image wall 
 
 Step 5. Edit forbes/books.csv with google image keywords on each line of (put in the search term you'd use for these books)
 
