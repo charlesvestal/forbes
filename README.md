@@ -36,3 +36,7 @@ You can resize the window until the aspect ratios look right
 # Run again
 
 When running again, delete the downloads directory, edit the books.csv, delete the downloads directory and run forbes.sh again
+
+# Thanks
+
+Contains elements from Tim Van Damme's Adaptive Photo Layout codepen: https://codepen.io/maxvoltar/pen/eYOPdMG
