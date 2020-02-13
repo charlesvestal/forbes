@@ -7,7 +7,7 @@ echo "<!DOCTYPE html>
 <link rel="stylesheet" href="./style.css">
 </head>
 <body>
-<ul>" > test.html
+<ul>" > index.html
 
 for i in downloads/*.jpg; do
   new=$(printf "%04d.jpg" "$a") #04 pad to length of 4
@@ -15,7 +15,7 @@ for i in downloads/*.jpg; do
 
   echo "<li>
     <img src='downloads/$new'>
-  </li>" >> test.html
+  </li>" >> index.html
 
   let a=a+1
 done
@@ -24,4 +24,4 @@ echo "</ul>
 <!-- partial -->
   
 </body>
-</html>" >> test.html
+</html>" >> index.html
