@@ -1,3 +1,5 @@
+rm -r ./downloads
+
 googleimagesdownload --keywords_from_file books.csv --limit 1 --no_directory
 a=1
 

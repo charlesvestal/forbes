@@ -28,6 +28,8 @@ sudo pip install google_images_download
 
 # Prep to generate an image wall 
 
+*Note: the script will delete the downloads directory with any previously downloaded images.*
+
 Step 5. Edit forbes/books.csv with google image keywords on each line of (put in the search term you'd use for these books)
 
 Step 6. Run the script
@@ -36,13 +38,11 @@ sh forbes.sh
 ```
 
 Step 7. Open index.html
-You can resize the window until the aspect ratios look right
+You can resize the window until the aspect ratios look right then take a screenshot.
 
-# Run again
+# Notes
 
-When running again, delete the downloads directory, edit the books.csv, delete the downloads directory and run forbes.sh again
-
-note: If you'd rather preserve the entirety of a cover, and have some white space between, change `object-fit: cover;` to `  object-fit: cover;` in the img definition of style.css
+If you'd rather preserve the entirety of a cover, and have some white space between, change `object-fit: cover;` to `  object-fit: scale-down;` in the img definition of style.css
 
 # Thanks
 
