@@ -24,7 +24,7 @@ Step 4. Install google-images-download cli tool (a patched version that works, u
 git clone https://github.com/Joeclinton1/google-images-download/
 cd google-images-downloads
 git checkout patch-1
-sudo python setup.py install
+sudo python3 setup.py install
 ```
 
 # Prep to generate an image wall 
