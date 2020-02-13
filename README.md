@@ -22,7 +22,7 @@ Step 4. Install google-images-download cli tool (a patched version that works, u
 
 ```
 git clone https://github.com/Joeclinton1/google-images-download/
-cd google-images-downloads
+cd google-images-download
 git checkout patch-1
 sudo python3 setup.py install
 ```
